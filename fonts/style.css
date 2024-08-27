@@ -1,0 +1,23 @@
+
+h1{
+    font-size: 54px;
+    font-family: 'Mona Sans', "Hubot Sans" ,sans-serif;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+
+p{
+    font-family: Mona Sans, Hubot Sans ,sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    font-style: italic;
+    font-variant: small-caps;
+}
+a{
+    
+    font-family: Mona Sans, Hubot Sans ,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-variant: small-caps;
+
+}

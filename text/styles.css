@@ -1,0 +1,27 @@
+body {
+  font-family: "Mona Sans", "Hubot Sans", sans-serif;
+}
+
+h1 {
+  font-size: 54px;
+  text-align: left;
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  text-transform: capitalize;
+  text-decoration-style: solid;
+  text-shadow: 2px 2px 5px rgba(255, 0, 0, 0.37);
+}
+
+
+p,
+a {
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  word-spacing: 0.9px;
+  line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}

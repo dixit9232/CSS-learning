@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: rgb(25, 0, 255);
+  font-size: 30px;
+}
+.about-flutter {
+  color: rgb(8, 160, 248);
+}
+
+/* 
+this is when id is define
+ */
+
+#btn {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+
+#btn:hover {
+  background-color: white;
+  color: black;
+}
+
+/* 
+When id is not defin we can create global style 
+*/
+
+a {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  background-color: white;
+  color: black;
+}

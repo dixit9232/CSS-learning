@@ -1,0 +1,89 @@
+/* UNIT 
+
+100% = 16px
+1px = 6.25%
+1em = 16px
+1rem = 62.5%
+
+Always set rem value is :
+1rem = 10px
+
+*/
+
+/* In Px */
+
+/* h1 {
+  font-size: 54px;
+}
+p {
+  font-size: 36px;
+}
+li {
+  font-size: 44px;
+} */
+
+/* 
+
+
+
+
+
+*/
+
+/* In % */
+
+/* h1{
+    font-size: 337.5% ;
+}
+
+p{
+    font-size: 225% ;
+}
+li{
+    font-size: 275% ;
+} */
+
+/* 
+
+
+
+
+
+*/
+
+/* In em */
+
+/* h1 {
+  font-size: 3.375em;
+}
+
+p {
+  font-size: 2.25em;
+}
+li {
+  font-size: 2.75em;
+} */
+
+/* 
+
+
+
+
+
+*/
+
+/* in rem */
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5.4rem;
+}
+p {
+  font-size: 3.6rem;
+}
+li {
+  font-size: 4.4rem;
+}
