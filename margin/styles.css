@@ -1,0 +1,12 @@
+h1{
+    font-size: 54px;
+}
+.margin-section{
+    height: 200px;
+ margin: auto;
+    width: 800px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(0, 255, 255);
+    color: black;
+}

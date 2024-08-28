@@ -1,0 +1,17 @@
+.padding-section{
+    background-color: #6505ff;
+    color:  rgb(255, 255, 255);
+    font-size: 30px;
+    height: 500px;
+    width: 1000px;
+    padding:100px;
+    border: 10px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+h1{
+    font-size: 54px;
+}

@@ -1,0 +1,30 @@
+/* Liner Gradient  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mona Sans, Hubot Sans, sans-serif;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(45deg, black, white);
+  background-image: linear-gradient(to top left, #000, #fff);
+  background-image: linear-gradient(to bottom right, #000, #fff);
+  background-image: linear-gradient(45deg, #fcd600, #34fd02, #0299fd, #4502fd);
+  background-image: linear-gradient(45deg, #007991, #78ffd6);
+  background-image: repeating-linear-gradient(35.2deg, #007991, #78ffd6 50px);
+
+
+  background-image: linear-gradient(
+      to top right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("../images/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
