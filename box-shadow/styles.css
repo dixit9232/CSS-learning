@@ -1,0 +1,14 @@
+div {
+  margin-top: 100px;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  box-shadow: 10px 10px 10px 10px #ff00ff;
+  border-radius: 50%;
+
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: blue;
+}
