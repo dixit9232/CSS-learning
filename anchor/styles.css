@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mona Sans";
+}
+body {
+  background-color: #000;
+  height: 100vh;
+  display: flex;
+  margin: 20px;
+  place-items: center;
+  grid: center;
+}
+
+a:any-link {
+  text-decoration: none;
+  border-radius: 10px;
+  color: black;
+  background-color: aliceblue;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 40px;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+a:active {
+  color: aqua;
+}

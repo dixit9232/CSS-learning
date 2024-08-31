@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mona Sans;
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background-color: #000;
+  width: 100%;
+}
+.container {
+  place-items: center;
+  width: 100%;
+  height: 100;
+  list-style-type: none;
+}
+
+p {
+  font-size: 20px;
+}
+li {
+  font-size: 40px;
+}
+
+.container li {
+  color: blue;
+}
+
+.container ul > li {
+  color: aquamarine;
+}
+
+.container ol > li {
+  color: red;
+}
+
+.container p + li {
+  color: burlywood;
+}
+
+.container p ~ li {
+  color: magenta;
+}
