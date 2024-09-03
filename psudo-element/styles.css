@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Mona Sans;
+  background-color: #000;
+}
+
+body {
+  display: grid;
+  place-items: center;
+}
+
+#main-heading {
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: 50px;
+  color: aliceblue;
+  padding: 10px;
+  position: relative;
+}
+
+#main-heading::before {
+  content: "I am Dixit Pambhar";
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 6px;
+  position: absolute;
+  top: -12px;
+}
+
+#main-heading::after {
+  content: "";
+  border: 2px solid salmon;
+  width: 120px;
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
+}
+
+#main-heading::selection {
+  background-color: rgb(0, 255, 255, 0.3);
+}

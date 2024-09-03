@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fixed Position in CSS</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: Mona Sans;
+      }
+      .main-heading {
+        position: fixed;
+        font-size: 30px;
+        background: blue;
+        padding: 20px;
+        color: aliceblue;
+        width: 100%;
+      }
+      .child {
+        height: 100vh;
+        width: 100%;
+      }
+      .child-1 {
+         height: 100vh;
+        width: 100%;
+        background-color: antiquewhite;
+      }
+      .child-2 {
+         height: 100vh;
+        width: 100%;
+        background-color: aqua;
+      }
+      .child-3 {
+         height: 100vh;
+        width: 100%;
+        background-color: aquamarine;
+      }
+      .child-4 {
+         height: 100vh;
+        width: 100%;
+        background-color: bisque;
+      }
+      .child-2 a {
+        position: sticky;
+        top: 50%;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-heading">
+      <h1>Fixed Position in CSS</h1>
+    </div>
+    <div class="child child-1"></div>
+    <div class="child child-2">
+      <a href="#">Click</a>
+    </div>
+    <div class="child child-3"></div>
+    <div class="child child-4"></div>
+  </body>
+</html>

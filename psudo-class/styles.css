@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Mona Sans;
+}
+body {
+  display: grid;
+  place-items: center;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+.parent-class {
+  height: auto;
+  width: 300px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: grid;
+  background-color: #fff;
+  place-items: center;
+}
+
+.parent-class p {
+  font-size: 20px;
+}
+
+.parent-class ul {
+  list-style-type: none;
+  display: grid;
+  place-items: center;
+  line-height: 2;
+}
+
+.parent-class li {
+  font-size: 36px;
+  list-style-type: none;
+  display: grid;
+  place-items: center;
+  line-height: 2;
+}
+/* 
+.parent-class li:first-child {
+  color: blue;
+} */
+
+/* .parent-class li:nth-of-type(1){
+    color: blue;
+} */
+
+/* .parent-class li:first-of-type{
+    color: blue;
+} */
+
+/* .parent-class li:nth-child(2){
+    color: blue;
+} */
+
+/* .parent-class li:nth-child(even){
+    color: blue;
+} */
+
+.parent-class li:nth-of-type(odd){
+    color: blue;
+}
