@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mona Sans;
+  color: whitesmoke;
+}
+
+body {
+  height: 100vh;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  background-color: rgba(0, 0, 0, 0.849);
+}
+header {
+  width: max-content;
+  background-color: transparent;
+  display: grid;
+}
+h1 {
+  font-size: 56px;
+  letter-spacing: 1.5px;
+}
+h3 {
+  margin-top: -5px;
+  font-weight: 200;
+  letter-spacing: 15px;
+}
+
+section {
+  display: flex;
+  place-content: center;
+}
+
+div {
+  width: 50%;
+  height: 40vh;
+}
+
+.main-section {
+  margin: 50px 50px 0px 0px;
+}
+
+.main-section p {
+  word-spacing: 1.6px;
+  line-height: 1.56;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+img {
+  height: 40vh;
+  transform: all  0.8s  ease;
+  -webkit-transform: all  0.8s  ease;
+  -moz-transform: all  0.8s  ease;
+  -ms-transform: all  0.8s  ease;
+  -o-transform: all  0.8s  ease;
+}
+
+.main-section a {
+  text-decoration: none;
+  border: 1px solid white;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+a:hover {
+  color: black;
+  background-color: azure;
+}
+
+
+img:hover{
+  scale: 1.2;
+}
