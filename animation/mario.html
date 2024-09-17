@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      section {
+        height: 100vh;
+        width: 100%;
+        background: url(./bg-mario.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+      img {
+        width: 150px;
+        position: absolute;
+        bottom: 22%;
+        animation: mario-run 1.5s linear infinite;
+      }
+      @keyframes mario-run {
+        0% {
+          translate: 0%;
+        }
+
+        100% {
+          translate: calc(90vw - 150px);
+        }
+      }
+    </style>
+    <title>Mario run</title>
+  </head>
+  <body>
+    <section>
+      <img
+        class="mario-runner"
+        src="./mario-gif.gif"
+        alt="Mario mario-background"
+      />
+    </section>
+  </body>
+</html>

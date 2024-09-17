@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --primary-color: rgb(206, 32, 32);
+    --secondary-color: #eeff00;
+    --bg-color: #000000;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div {
+  margin-top: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.child-1, .child-2 {
+  background-color: var(--primary-color);
+}   
+
+.child-3, .child-4, .child-5 {
+  background-color: var(--secondary-color);
+}
